@@ -1,0 +1,90 @@
+20200308:14:54:06.745 [main] ERROR  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alipayConfig in com.pay.paydemo.controller.TestController required a bean of type 'com.alipay.config.AlipayConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.alipay.config.AlipayConfig' in your configuration.
+
+20200308:14:54:30.720 [main] ERROR  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alipayConfig in com.pay.paydemo.controller.TestController required a bean of type 'com.alipay.config.AlipayConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.alipay.config.AlipayConfig' in your configuration.
+
+20200308:14:55:18.347 [main] ERROR  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alipayConfig in com.pay.paydemo.controller.TestController required a bean of type 'com.alipay.config.AlipayConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.alipay.config.AlipayConfig' in your configuration.
+
+20200308:14:57:18.735 [main] ERROR  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alipayConfig in com.pay.paydemo.controller.TestController required a bean of type 'com.alipay.config.AlipayConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.alipay.config.AlipayConfig' in your configuration.
+
+20200308:14:57:40.419 [main] ERROR  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alipayConfig in com.pay.paydemo.controller.TestController required a bean of type 'com.alipay.config.AlipayConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.alipay.config.AlipayConfig' in your configuration.
+

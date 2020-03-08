@@ -1,0 +1,155 @@
+20200308:14:54:05.781 [main] INFO   Starting PaydemoApplication on DESKTOP-5143M7O with PID 17636 (D:\my_pro\paydemo\target\classes started by administrator in D:\my_pro\paydemo)
+20200308:14:54:05.785 [main] INFO   No active profile set, falling back to default profiles: default
+20200308:14:54:06.518 [main] INFO   Tomcat initialized with port(s): 8080 (http)
+20200308:14:54:06.525 [main] INFO   Initializing ProtocolHandler ["http-nio-8080"]
+20200308:14:54:06.525 [main] INFO   Starting service [Tomcat]
+20200308:14:54:06.525 [main] INFO   Starting Servlet engine: [Apache Tomcat/9.0.31]
+20200308:14:54:06.606 [main] INFO   Initializing Spring embedded WebApplicationContext
+20200308:14:54:06.606 [main] INFO   Root WebApplicationContext: initialization completed in 786 ms
+20200308:14:54:06.645 [main] WARN   Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'alipayConfig'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.alipay.config.AlipayConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+20200308:14:54:06.648 [main] INFO   Stopping service [Tomcat]
+20200308:14:54:06.657 [main] INFO   
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+20200308:14:54:06.745 [main] ERROR  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alipayConfig in com.pay.paydemo.controller.TestController required a bean of type 'com.alipay.config.AlipayConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.alipay.config.AlipayConfig' in your configuration.
+
+20200308:14:54:29.806 [main] INFO   Starting PaydemoApplication on DESKTOP-5143M7O with PID 17840 (D:\my_pro\paydemo\target\classes started by administrator in D:\my_pro\paydemo)
+20200308:14:54:29.808 [main] INFO   No active profile set, falling back to default profiles: default
+20200308:14:54:30.499 [main] INFO   Tomcat initialized with port(s): 8080 (http)
+20200308:14:54:30.507 [main] INFO   Initializing ProtocolHandler ["http-nio-8080"]
+20200308:14:54:30.507 [main] INFO   Starting service [Tomcat]
+20200308:14:54:30.507 [main] INFO   Starting Servlet engine: [Apache Tomcat/9.0.31]
+20200308:14:54:30.588 [main] INFO   Initializing Spring embedded WebApplicationContext
+20200308:14:54:30.588 [main] INFO   Root WebApplicationContext: initialization completed in 745 ms
+20200308:14:54:30.628 [main] WARN   Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'alipayConfig'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.alipay.config.AlipayConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+20200308:14:54:30.630 [main] INFO   Stopping service [Tomcat]
+20200308:14:54:30.638 [main] INFO   
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+20200308:14:54:30.720 [main] ERROR  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alipayConfig in com.pay.paydemo.controller.TestController required a bean of type 'com.alipay.config.AlipayConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.alipay.config.AlipayConfig' in your configuration.
+
+20200308:14:55:17.457 [main] INFO   Starting PaydemoApplication on DESKTOP-5143M7O with PID 12264 (D:\my_pro\paydemo\target\classes started by administrator in D:\my_pro\paydemo)
+20200308:14:55:17.460 [main] INFO   No active profile set, falling back to default profiles: default
+20200308:14:55:18.132 [main] INFO   Tomcat initialized with port(s): 8080 (http)
+20200308:14:55:18.140 [main] INFO   Initializing ProtocolHandler ["http-nio-8080"]
+20200308:14:55:18.140 [main] INFO   Starting service [Tomcat]
+20200308:14:55:18.140 [main] INFO   Starting Servlet engine: [Apache Tomcat/9.0.31]
+20200308:14:55:18.221 [main] INFO   Initializing Spring embedded WebApplicationContext
+20200308:14:55:18.221 [main] INFO   Root WebApplicationContext: initialization completed in 720 ms
+20200308:14:55:18.260 [main] WARN   Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'alipayConfig'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.alipay.config.AlipayConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+20200308:14:55:18.261 [main] INFO   Stopping service [Tomcat]
+20200308:14:55:18.269 [main] INFO   
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+20200308:14:55:18.347 [main] ERROR  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alipayConfig in com.pay.paydemo.controller.TestController required a bean of type 'com.alipay.config.AlipayConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.alipay.config.AlipayConfig' in your configuration.
+
+20200308:14:57:17.870 [main] INFO   Starting PaydemoApplication on DESKTOP-5143M7O with PID 11360 (D:\my_pro\paydemo\target\classes started by administrator in D:\my_pro\paydemo)
+20200308:14:57:17.872 [main] INFO   No active profile set, falling back to default profiles: default
+20200308:14:57:18.524 [main] INFO   Tomcat initialized with port(s): 8080 (http)
+20200308:14:57:18.531 [main] INFO   Initializing ProtocolHandler ["http-nio-8080"]
+20200308:14:57:18.532 [main] INFO   Starting service [Tomcat]
+20200308:14:57:18.532 [main] INFO   Starting Servlet engine: [Apache Tomcat/9.0.31]
+20200308:14:57:18.610 [main] INFO   Initializing Spring embedded WebApplicationContext
+20200308:14:57:18.610 [main] INFO   Root WebApplicationContext: initialization completed in 705 ms
+20200308:14:57:18.647 [main] WARN   Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'alipayConfig'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.alipay.config.AlipayConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+20200308:14:57:18.649 [main] INFO   Stopping service [Tomcat]
+20200308:14:57:18.657 [main] INFO   
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+20200308:14:57:18.735 [main] ERROR  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alipayConfig in com.pay.paydemo.controller.TestController required a bean of type 'com.alipay.config.AlipayConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.alipay.config.AlipayConfig' in your configuration.
+
+20200308:14:57:39.545 [main] INFO   Starting PaydemoApplication on DESKTOP-5143M7O with PID 15544 (D:\my_pro\paydemo\target\classes started by administrator in D:\my_pro\paydemo)
+20200308:14:57:39.547 [main] INFO   No active profile set, falling back to default profiles: default
+20200308:14:57:40.205 [main] INFO   Tomcat initialized with port(s): 8080 (http)
+20200308:14:57:40.212 [main] INFO   Initializing ProtocolHandler ["http-nio-8080"]
+20200308:14:57:40.213 [main] INFO   Starting service [Tomcat]
+20200308:14:57:40.213 [main] INFO   Starting Servlet engine: [Apache Tomcat/9.0.31]
+20200308:14:57:40.293 [main] INFO   Initializing Spring embedded WebApplicationContext
+20200308:14:57:40.293 [main] INFO   Root WebApplicationContext: initialization completed in 715 ms
+20200308:14:57:40.330 [main] WARN   Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'alipayConfig'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.alipay.config.AlipayConfig' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+20200308:14:57:40.332 [main] INFO   Stopping service [Tomcat]
+20200308:14:57:40.342 [main] INFO   
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+20200308:14:57:40.419 [main] ERROR  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field alipayConfig in com.pay.paydemo.controller.TestController required a bean of type 'com.alipay.config.AlipayConfig' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.alipay.config.AlipayConfig' in your configuration.
+

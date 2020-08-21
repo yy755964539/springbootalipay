@@ -18,13 +18,13 @@ public class ConfigBean {
     @Bean
     public DefaultAlipayClient defaultAlipayClient(@Qualifier("retAlipayConfig")AlipayConfig alipayConfig){
         return new DefaultAlipayClient(
-                alipayConfig.URL,
-                alipayConfig.APPID,
-                alipayConfig.RSA_PRIVATE_KEY,
-                alipayConfig.FORMAT,
-                alipayConfig.CHARSET,
-                alipayConfig.ALIPAY_PUBLIC_KEY,
-                alipayConfig.SIGNTYPE);
+                AlipayConfig.URL,
+                AlipayConfig.APPID,
+                AlipayConfig.RSA_PRIVATE_KEY,
+                AlipayConfig.FORMAT,
+                AlipayConfig.CHARSET,
+                AlipayConfig.ALIPAY_PUBLIC_KEY,
+                AlipayConfig.SIGNTYPE);
     }
 
     //阿里支付的配置config

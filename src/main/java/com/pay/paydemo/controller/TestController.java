@@ -50,7 +50,7 @@ public class TestController {
     @ResponseBody
     public String pay(@RequestParam("out_trade_no")String outTradeNo,@RequestParam("subject")String subject,
                       @RequestParam("total_amount")String totalAmount,@RequestParam("body")String body)throws AlipayApiException {
-        HashMap<String,String>parm=new HashMap<>();
+        HashMap<String,String>parm=new HashMap<>(6);
         parm.put("subject",subject);
         parm.put("out_trade_no",outTradeNo);
        // parm.put("timeout_express","1583655720");//支付超时时间
@@ -74,14 +74,14 @@ public class TestController {
     @RequestMapping("/refund")
     @ResponseBody
     public String refund(){
-        HashMap<String,String>parm=new HashMap<>();
+        HashMap<String,String>parm=new HashMap<>(6);
         String out_request_no = new String(UUID.randomUUID().toString());
         //out_trade_no商家订单号
         //trade_no支付订单号
         //refund_amount退款金额
         //refund_currency人命币CNY
         //refund_reason正常退款
-        parm.put("out_trade_no","1234567");
+        parm.put("out_trade_no","123456111");
         parm.put("refund_amount","500.00");
       //  parm.put("refund_currency","CNY");
         parm.put("refund_reason","正常退款");

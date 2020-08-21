@@ -25,17 +25,14 @@ public class AlipayService {
     @Autowired
     private DefaultAlipayClient defaultAlipayClient;
 
-    @Autowired
-    private AlipayConfig alipayConfig;
-
 
     public String alipay(HashMap<String,String>data)throws AlipayApiException{
         try{
             //        AlipayTradeAppPayRequest request = new AlipayTradeAppPayRequest();// APP支付
             AlipayTradePagePayRequest request = new AlipayTradePagePayRequest();  // 网页支付
 //        AlipayTradeWapPayRequest request = new AlipayTradeWapPayRequest();  //移动h5
-            request.setNotifyUrl(alipayConfig.notify_url);
-            request.setReturnUrl(alipayConfig.return_url);
+            request.setNotifyUrl(AlipayConfig.notify_url);
+            request.setReturnUrl(AlipayConfig.return_url);
             request.setBizContent(JSON.toJSONString(data));
             String response = defaultAlipayClient.pageExecute(request).getBody();
             return response;
@@ -52,7 +49,7 @@ public class AlipayService {
             AlipayTradeRefundResponse response = defaultAlipayClient.execute(request);
             if (response.isSuccess()){
                 System.out.println("成功");
-            }else System.out.println("失败");
+            }else{System.out.println("失败");}
             return response.getMsg();
         }catch (Exception e){
             return e.getMessage();

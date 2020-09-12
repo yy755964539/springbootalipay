@@ -1,9 +1,6 @@
 package com.pay.paydemo;
 
 import com.alipay.util.LocationUtil;
-import org.gavaghan.geodesy.Ellipsoid;
-import org.gavaghan.geodesy.GeodeticCalculator;
-import org.gavaghan.geodesy.GlobalCoordinates;
 
 import java.math.BigDecimal;
 
